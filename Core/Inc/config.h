@@ -37,8 +37,8 @@
 #define I_FACTOR_I_D 10
 
 // min and max values of throttle and brake signals in ADC counts
-#define THROTTLEOFFSET 65
-#define THROTTLEMAX 2000
+#define THROTTLEOFFSET 55
+#define THROTTLEMAX 175
 #define BRAKEOFFSET 50
 #define BRAKEMAX 190
 
@@ -53,8 +53,8 @@
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
 #define PH_CURRENT_MAX_ECO 16000
-#define PH_CURRENT_MAX_NORMAL 28000
-#define PH_CURRENT_MAX_SPORT 40000
+#define PH_CURRENT_MAX_NORMAL 30000
+#define PH_CURRENT_MAX_SPORT 45000
 
 // motor current limit for regen in mA
 #define REGEN_CURRENT 1000 //default 20000
@@ -67,7 +67,7 @@
 #define REGEN_CURRENT_MAX 1000 //default 10000
 
 // battery voltage limits in mV
-#define BATTERYVOLTAGE_MIN 33000
+#define BATTERYVOLTAGE_MIN 32000
 #define BATTERYVOLTAGE_MAX 42000
 
 
