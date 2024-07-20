@@ -11,7 +11,7 @@
 
 //Dangerzone, do not touch!!
 #define DISPLAY_TYPE_M365DASHBOARD (1<<1)
-#define DISPLAY_TYPE_DEBUG (1<<0)							// For ASCII-Output in Debug mode);
+#define DISPLAY_TYPE_DEBUG (1<<0)					// For ASCII-Output in Debug mode);
 
 #define TRIGGER_OFFSET_ADC 50
 #define TRIGGER_DEFAULT 2020
