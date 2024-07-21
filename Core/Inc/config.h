@@ -57,7 +57,7 @@
 #define PH_CURRENT_MAX_SPORT 45000
 
 // motor current limit for regen in mA
-#define REGEN_CURRENT 1000 //default 20000
+#define REGEN_MAX_CURRENT 1000 //default 20000
 
 // maximum current for flux weakening in mA
 #define FW_CURRENT_MAX 18000 //max id
