@@ -37,7 +37,7 @@
 #define I_FACTOR_I_D 10
 
 // min and max values of throttle and brake signals in ADC counts
-#define THROTTLEOFFSET 55
+#define THROTTLEOFFSET 60
 #define THROTTLEMAX 175
 #define BRAKEOFFSET 50
 #define BRAKEMAX 190
