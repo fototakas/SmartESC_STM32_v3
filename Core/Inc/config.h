@@ -59,8 +59,8 @@
 // motor current limit for regen in mA
 #define REGEN_MAX_CURRENT 1000 //default 20000
 
-// maximum current for flux weakening in mA
-#define FW_CURRENT_MAX 18000 //max id
+// maximum current for field weakening in mA
+#define FIELD_WEAKNING_CURRENT_MAX 0 //max id
 
 // maximum battery currents in mA
 #define BATTERYCURRENT_MAX 14500
